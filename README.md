@@ -92,5 +92,3 @@ This project is just a bit of fun...but if you do want to contribute and make it
 ### Notes for Windows users...
 
 Why does Windows Defender think the compiled binary is infected? See: https://go.dev/doc/faq#virus
-
-To resolve you can 
