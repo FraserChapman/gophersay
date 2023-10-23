@@ -1,6 +1,6 @@
 # gophersay
 
-gophersay is a tiny command-line tool written in Go that displays a cute ASCII art of the go gopher along with a customizable message. It takes any text as input and displays the message inside a speech bubble carried by the gopher. Inspired by the classic cowsay
+gophersay is a tiny command-line tool written in Go that displays a cute ASCII art of the go gopher along with a customizable message. It takes any text as input and displays the message inside a speech bubble. Inspired by the classic cowsay
 
 ## Usage
 
