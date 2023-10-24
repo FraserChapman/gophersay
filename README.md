@@ -1,4 +1,4 @@
-# gophersay
+# gophersay [![Go Reference](https://pkg.go.dev/badge/github.com/FraserChapman/gophersay.svg)](https://pkg.go.dev/github.com/FraserChapman/gophersay)
 
 gophersay is a tiny command-line tool written in Go that displays a cute ASCII art of the go gopher along with a customizable message.
 
