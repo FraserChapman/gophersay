@@ -1,6 +1,10 @@
 # gophersay
 
-gophersay is a tiny command-line tool written in Go that displays a cute ASCII art of the go gopher along with a customizable message. It takes any text as input and displays the message inside a speech bubble. Inspired by the classic cowsay
+gophersay is a tiny command-line tool written in Go that displays a cute ASCII art of the go gopher along with a customizable message.
+
+It takes any text as input and displays the message inside a speech bubble.
+
+Inspired by the classic [cowsay](https://en.wikipedia.org/wiki/Cowsay)
 
 ## Usage
 
@@ -21,15 +25,29 @@ Build the project:
 go build -o gophersay .
 ```
 
+or on windows...
+
+```
+go build -o gophersay.exe .
+```
+
 ### Running the Program
 
 ```
 ./gophersay <your-message>
 ```
 
-Replace `<your-message>` with the text you want the gopher to say. If no message is provided, the gopher will say `Don't panic!` by default.
+or on windows...
 
-### Example
+```
+gophersay.exe <your-message>
+```
+
+Replace `<your-message>` with the text you want the gopher to say.
+
+If no message is provided, the gopher will say `Don't panic!` by default.
+
+### Examples
 
 ```
 ./gophersay Hello, Gopher!
@@ -58,18 +76,19 @@ This will display the following output:
 ```
 
 To pass arguments containing spaces, ensuring they are treated as full lines of text, wrap the arguments in quotes. For example:
+""
 
 ```
-./gophersay "Hello, Gopher!" "Remember not to panic!"
+./gophersay "Six by nine. Forty two." "That's all there is."
 ```
 
 This will display the following output:
 
 ```
-+------------------------+
-| Hello, Gopher!         |
-| Remember not to panic! |
-+------------------------+
++-------------------------+
+| Six by nine. Forty two. |
+| That's all there is.    |
++-------------------------+
   \
    \
     \    ,_---~~~~~----._
@@ -91,4 +110,4 @@ This project is just a bit of fun...but if you do want to contribute and make it
 
 ### Notes for Windows users...
 
-Why does Windows Defender think the compiled binary is infected? See: https://go.dev/doc/faq#virus
+[Why does Windows Defender think the compiled binary is infected?](https://go.dev/doc/faq#virus)
