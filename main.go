@@ -20,7 +20,8 @@ const (
   ]            | | |            |
   ]             ~ ~             |
   |                            |
-   |                           |`
+   |                           |
+`
 )
 
 func maxLen(text ...string) int {
